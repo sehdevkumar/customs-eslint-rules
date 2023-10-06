@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'customs-eslint-rules';
+  constructor(a,b,c,d,e,f,g,h,i) {
+
+  }
+
+
+  callme(a,b,c,d,e,f,g,h,i,j) {
+
+  }
 }
