@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint --fix  --rulesdir src/rules/"
+    "lint": "ng lint --rulesdir src/rules/"
   },
   "private": true,
   "dependencies": {

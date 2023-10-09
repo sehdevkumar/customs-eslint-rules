@@ -1,5 +1,6 @@
 module.exports = {
   create(context) {
+    console.log(context)
     return {
       ArrowFunctionExpression(node) {
         if (node.params.length > 7) {

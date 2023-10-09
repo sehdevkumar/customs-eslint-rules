@@ -1,58 +1,11 @@
 
 > customs-eslint-rules@0.0.0 lint
-> ng lint --fix  --rulesdir src/rules/
+> ng lint
 
 
 Linting "customs-eslint-rules"...
-
-/home/sehdev/Desktop/customs-eslint-rules/customs-eslint-rules/src/app/app.component.ts
-   9:15  warning  'a' is defined but never used                           @typescript-eslint/no-unused-vars
-   9:17  warning  'b' is defined but never used                           @typescript-eslint/no-unused-vars
-   9:19  warning  'c' is defined but never used                           @typescript-eslint/no-unused-vars
-   9:21  warning  'd' is defined but never used                           @typescript-eslint/no-unused-vars
-   9:23  warning  'e' is defined but never used                           @typescript-eslint/no-unused-vars
-   9:25  warning  'f' is defined but never used                           @typescript-eslint/no-unused-vars
-   9:27  warning  'g' is defined but never used                           @typescript-eslint/no-unused-vars
-   9:29  warning  'h' is defined but never used                           @typescript-eslint/no-unused-vars
-   9:31  warning  'i' is defined but never used                           @typescript-eslint/no-unused-vars
-   9:34  error    Unexpected empty constructor                            @typescript-eslint/no-empty-function
-  14:3   error    Too many parameters in this method. Maximum allowed: 7  max-params-in-method-not-constructor
-  14:10  warning  'a' is defined but never used                           @typescript-eslint/no-unused-vars
-  14:12  warning  'b' is defined but never used                           @typescript-eslint/no-unused-vars
-  14:14  warning  'c' is defined but never used                           @typescript-eslint/no-unused-vars
-  14:16  warning  'd' is defined but never used                           @typescript-eslint/no-unused-vars
-  14:18  warning  'e' is defined but never used                           @typescript-eslint/no-unused-vars
-  14:20  warning  'f' is defined but never used                           @typescript-eslint/no-unused-vars
-  14:22  warning  'g' is defined but never used                           @typescript-eslint/no-unused-vars
-  14:24  warning  'h' is defined but never used                           @typescript-eslint/no-unused-vars
-  14:26  warning  'i' is defined but never used                           @typescript-eslint/no-unused-vars
-  14:28  warning  'j' is defined but never used                           @typescript-eslint/no-unused-vars
-  14:31  error    Unexpected empty method 'callme'                        @typescript-eslint/no-empty-function
-
-/home/sehdev/Desktop/customs-eslint-rules/customs-eslint-rules/src/app/dummy-class.ts
-  1:7   warning  'DummayClass' is defined but never used                         @typescript-eslint/no-unused-vars
-  2:18  error    Unexpected empty constructor                                    @typescript-eslint/no-empty-function
-  7:20  error    Too many parameters in this Arrow Function. Maximum allowed: 7  max-params-in-method-not-constructor
-  7:21  warning  'a' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:23  warning  'b' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:25  warning  'c' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:27  warning  'd' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:29  warning  'e' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:31  warning  'f' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:33  warning  'g' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:35  warning  'h' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:37  warning  'i' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:39  warning  'j' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:41  warning  'k' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:43  warning  'l' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:45  warning  'm' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:47  warning  'o' is defined but never used                                   @typescript-eslint/no-unused-vars
-  7:49  warning  'p' is defined but never used                                   @typescript-eslint/no-unused-vars
-
-✖ 40 problems (5 errors, 35 warnings)
-
-Lint warnings found in the listed files.
-
-Lint errors found in the listed files.
-
+An unhandled exception occurred: Failed to load plugin 'rules' declared in '.eslintrc.json#overrides[0]': Cannot find module 'eslint-plugin-rules'
+Require stack:
+- /home/sehdev/Desktop/customs-eslint-rules/customs-eslint-rules/__placeholder__.js
+See "/tmp/ng-fZ8JZn/angular-errors.log" for further details.
 --------------------End of Linting for src/app------------------
